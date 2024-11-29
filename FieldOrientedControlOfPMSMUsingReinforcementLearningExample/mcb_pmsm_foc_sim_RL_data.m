@@ -22,7 +22,8 @@ dataType = 'single';            % Floating point code-generation
 
 %% System Parameters // Hardware parameters 
 
-pmsm = mcb_SetPMSMMotorParameters('Maxon_EC_Speedgoat');
+% pmsm = mcb_SetPMSMMotorParameters('Maxon_EC_Speedgoat');
+pmsm = mcb_SetPMSMMotorParameters('Teknic2310P');
 % pmsm.PositionOffset = 0.165;
 pmsm.PositionOffset = 0;
 
